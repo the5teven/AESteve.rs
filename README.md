@@ -26,7 +26,7 @@ use aesteve::{AESteve, AESError};
 
 fn main() -> Result<(), AESError> {
     // Create a new AES instance with a 128-bit key
-    let key = b"thisisaverysecurekey!";
+    let key = [0u8; 16];
     let aes = AESteve::new(key)?;
 
     // Encrypt a message
