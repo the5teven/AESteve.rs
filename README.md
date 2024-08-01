@@ -7,8 +7,7 @@ AESteve is a Rust library for AES encryption and decryption. It provides a strai
 - AES encryption and decryption with 128-bit keys
 - Efficient block processing with parallelization using Rayon
 - Error handling for common issues (e.g., invalid key length, invalid Base64 sequences)
-- Comprehensive documentation and examples
-
+- 
 ## Installation
 
 To use AESteve in your Rust project, add it as a dependency in your `Cargo.toml` file:
